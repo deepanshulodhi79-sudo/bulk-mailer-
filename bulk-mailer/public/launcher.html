@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bulk Mailer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Bulk Mail Launcher</h2>
+    <input type="email" id="email" placeholder="Your Gmail"><br>
+    <input type="password" id="pass" placeholder="App Password"><br>
+    <input type="text" id="subject" placeholder="Subject"><br>
+    <textarea id="message" placeholder="Message"></textarea><br>
+    <textarea id="recipients" placeholder="Recipients (one per line)"></textarea><br>
+    <button id="sendBtn" onclick="sendMail()">Send Mails</button>
+    <p id="status"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
